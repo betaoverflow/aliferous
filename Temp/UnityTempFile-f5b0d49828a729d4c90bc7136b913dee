@@ -1,0 +1,682 @@
+/target:library
+/nowarn:0169
+/out:Temp/Assembly-CSharp.dll
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Draco.dll
+/reference:Library/ScriptAssemblies/DracoEditor.dll
+/reference:Library/ScriptAssemblies/Siccity.GLTFUtility.Editor.dll
+/reference:Library/ScriptAssemblies/Siccity.GLTFUtility.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARCore.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+/reference:Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.XR.Management.dll
+/reference:Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+/reference:Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+/reference:Library/ScriptAssemblies/glTFSampleModels.dll
+/reference:Library/ScriptAssemblies/glTFast.dll
+/reference:Library/ScriptAssemblies/glTFastFakeSchema.dll
+/reference:Library/ScriptAssemblies/glTFastSchema.dll
+/reference:Assets/echoAR/Libraries/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1
+/define:UNITY_2020_1_4
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ASSERTIONS
+/define:UNITY_ASTC_ONLY_DECOMPRESS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_UNITYADS_API
+"Assets\Tatsumi 3d - Anime Style\Demo\Scripts\UIManager.cs"
+Assets\UserInterfaceButtons.cs
+Assets\echoAR\CustomBehaviour.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\Dataset\DataSet.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\Dataset\MaterialData.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\Dataset\ModelUtil.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\Dataset\ObjectBuilder.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\EditorUtil.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\ImportOptions.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\Loaders\Loader.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\Loaders\LoaderObj.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\Loaders\TextureLoader.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\LoadingProgress.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\ObjectImporter.cs
+Assets\echoAR\Libraries\AsImpL\Scripts\ObjectImporterUI.cs
+Assets\echoAR\Libraries\Data\BrickTarget.cs
+Assets\echoAR\Libraries\Data\Database.cs
+Assets\echoAR\Libraries\Data\EchoHologram.cs
+Assets\echoAR\Libraries\Data\Entry.cs
+Assets\echoAR\Libraries\Data\GeolocationTarget.cs
+Assets\echoAR\Libraries\Data\Hologram.cs
+Assets\echoAR\Libraries\Data\ImageHologram.cs
+Assets\echoAR\Libraries\Data\ImageTarget.cs
+Assets\echoAR\Libraries\Data\ModelHologram.cs
+Assets\echoAR\Libraries\Data\Target.cs
+Assets\echoAR\Libraries\Data\VideoHologram.cs
+Assets\echoAR\Libraries\SimpleJSON\SimpleJSON.cs
+Assets\echoAR\Libraries\SimpleJSON\SimpleJSONUnity.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample01_ObservableWWW.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample02_ObservableTriggers.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample03_GameObjectAsObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample04_ConvertFromUnityCallback.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample05_ConvertFromCoroutine.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample06_ConvertToCoroutine.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample07_OrchestratIEnumerator.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample08_DetectDoubleClick.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample09_EventHandling.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample10_MainThreadDispatcher.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample11_Logger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample12_ReactiveProperty.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Examples\Sample13_ToDoApp.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Asynchronous\WebRequestExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\BooleanDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\CancellationDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\CompositeDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\DictionaryDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\Disposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\DisposableExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\ICancelable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\RefCountDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\ScheduledDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\SerialDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\SingleAssignmentDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Disposables\StableCompositeDisposable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\EventPattern.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\AscynLock.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\ImmutableList.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\ListObserver.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\MicroCoroutine.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\PriorityQueue.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\ReflectionAccessor.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\ScheduledItem.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\InternalUtil\ThreadSafeQueueWorker.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Notification.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Notifiers\BooleanNotifier.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Notifiers\CountNotifier.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Notifiers\MessageBroker.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Notifiers\ScheduledNotifier.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Aggregate.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Awaiter.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Binding.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Blocking.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Concatenate.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Concurrency.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Conversions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Creation.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.ErrorHandling.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Events.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.FromAsync.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Joins.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Paging.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.Time.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Observer.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Aggregate.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Amb.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\AsObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\AsSingleUnitObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\AsUnitObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Buffer.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Cast.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Catch.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\CombineLatest.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Concat.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ContinueWith.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Create.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\DefaultIfEmpty.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Defer.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Delay.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\DelaySubscription.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Dematerialize.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Distinct.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\DistinctUntilChanged.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Do.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Empty.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Finally.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\First.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ForEachAsync.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\FromEvent.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\GroupBy.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\IgnoreElements.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Last.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Materialize.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Merge.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Never.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ObserveOn.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\OfType.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\OperatorObservableBase.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\OperatorObserverBase.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\PairWise.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Range.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\RefCount.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Repeat.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\RepeatSafe.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Return.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Sample.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Scan.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Select.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\SelectMany.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\SelectWhere.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Single.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Skip.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\SkipUntil.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\SkipWhile.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Start.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\StartWith.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\SubscribeOn.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Switch.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Synchronize.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\SynchronizedObserver.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Take.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\TakeLast.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\TakeUntil.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\TakeWhile.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Throttle.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ThrottleFirst.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Throw.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\TimeInterval.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Timeout.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Timer.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Timestamp.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ToArray.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ToList.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ToObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Wait.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\WhenAll.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Where.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\WhereSelect.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\WithLatestFrom.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\Zip.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Operators\ZipLatest.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Pair.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Schedulers\CurrentThreadScheduler.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Schedulers\IScheduler.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Schedulers\ImmediateScheduler.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Schedulers\Scheduler.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Schedulers\ThreadPoolScheduler.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Subjects\AsyncSubject.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Subjects\BehaviorSubject.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Subjects\ConnectableObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Subjects\ISubject.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Subjects\ReplaySubject.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Subjects\Subject.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Subjects\SubjectExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\System\IObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\System\IObserver.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\System\IOptimizedObservable.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\System\IProgress.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\System\Tuple.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\System\Unit.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Tasks\TaskObservableExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\TimeInterval.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\Timestamped.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\AotSafeExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\AsyncOperationExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\CancellationToken.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntry.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Diagnostics\Logger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Diagnostics\UnityDebugSink.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\FrameInterval.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\InspectableReactiveProperty.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\InspectorDisplayDrawer.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\LazyTask.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\LifetimeDisposableExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\MainThreadDispatcher.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\MainThreadScheduler.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Observable.Unity.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ObservableMonoBehaviour.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ObservableWWW.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ObserveExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\BatchFrame.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrame.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrameSubscription.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\FrameInterval.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\FrameTimeInterval.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\FromCoroutine.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\RepeatUntil.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\SampleFrame.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\SubscribeOnMainThread.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFirstFrame.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFrame.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Operators\TimeoutFrame.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\PresenterBase.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ReactiveCollection.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ReactiveCommand.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ReactiveDictionary.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ReactiveProperty.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\ScenePlaybackDetector.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Toolkit\ObjectPool.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCancelTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollision2DTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollisionTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDestroyTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDropTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEventTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableInitializePotentialDragTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMouseTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableParticleTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerClickTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerDownTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerEnterTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerExitTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableScrollTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSelectTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSubmitTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerBase.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.Component.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\UnityEqualityComparer.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\UnityEventExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\UnityGraphicExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\UnityUIComponentExtensions.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityWinRTBridge\Thread.cs
+Assets\echoAR\Libraries\SocketIO\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\Decoder.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\Encoder.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\Packet.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\Singleton.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\Socket.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\SocketInitializer.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\SocketManager.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\SystemEvent.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\TimeStamp.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\WebSocketTrigger.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\WebSocketWrapper.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\AssemblyInfo.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\ByteOrder.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\CloseEventArgs.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\CloseStatusCode.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\CompressionMethod.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\ErrorEventArgs.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Ext.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Fin.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\HttpBase.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\HttpRequest.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\HttpResponse.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\LogData.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\LogLevel.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Logger.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Mask.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\MessageEventArgs.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\AuthenticationBase.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\AuthenticationChallenge.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\AuthenticationResponse.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\AuthenticationSchemes.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\Chunk.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\ChunkStream.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\ChunkedRequestStream.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\ClientSslConfiguration.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\Cookie.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\CookieCollection.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\CookieException.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\EndPointListener.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\EndPointManager.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpBasicIdentity.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpConnection.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpDigestIdentity.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpHeaderInfo.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpHeaderType.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListener.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListenerAsyncResult.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListenerContext.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListenerException.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListenerPrefix.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListenerPrefixCollection.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListenerRequest.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpListenerResponse.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpRequestHeader.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpResponseHeader.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpStatusCode.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpStreamAsyncResult.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpUtility.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\HttpVersion.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\InputChunkState.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\InputState.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\LineState.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\NetworkCredential.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\QueryStringCollection.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\ReadBufferState.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\RequestStream.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\ResponseStream.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\ServerSslConfiguration.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\SslConfiguration.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\WebHeaderCollection.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\WebSockets\HttpListenerWebSocketContext.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\WebSockets\TcpListenerWebSocketContext.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Net\WebSockets\WebSocketContext.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Opcode.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\PayloadData.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Rsv.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\HttpRequestEventArgs.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\HttpServer.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\IWebSocketSession.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\ServerState.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\WebSocketBehavior.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\WebSocketServer.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\WebSocketServiceHost.cs
+"Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\WebSocketServiceHost`1.cs"
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\WebSocketServiceManager.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\Server\WebSocketSessionManager.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\WebSocket.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\WebSocketException.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\WebSocketFrame.cs
+Assets\echoAR\Libraries\SocketIO\socket.io\websocket-sharp\WebSocketState.cs
+Assets\echoAR\Libraries\Websockets\WClient.cs
+Assets\echoAR\RemoteTransformations.cs
+Assets\echoAR\echoAR.cs

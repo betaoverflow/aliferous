@@ -1,0 +1,4 @@
+#Sun Dec 20 02:22:46 IST 2020
+base.0=C\:\\Users\\anike\\Downloads\\T-hacks-v3.0-master\\T-hacks-v3.0-master\\unity\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

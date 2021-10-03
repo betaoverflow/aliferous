@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\anike\\Downloads\\T-hacks-v3.0-master\\T-hacks-v3.0-master\\unity\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\anike\\Downloads\\T-hacks-v3.0-master\\T-hacks-v3.0-master\\unity\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anike\\Downloads\\T-hacks-v3.0-master\\T-hacks-v3.0-master\\unity\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "10,12,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "661,761,899",
+                        "endLines": "11,14,18",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "756,894,1121"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anike\\.gradle\\caches\\transforms-2\\files-2.1\\362fd67521f4fdbf23504fab735958d3\\arcore_client\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "101,152,207,333,459",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "147,202,328,454,542"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anike\\Downloads\\T-hacks-v3.0-master\\T-hacks-v3.0-master\\unity\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "43,-1",
+                        "endOffsets": "96,-1"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "547,593",
+                        "endColumns": "45,67",
+                        "endOffsets": "588,656"
+                    }
+                }
+            ]
+        }
+    ]
+}
