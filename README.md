@@ -5,9 +5,18 @@
 </p>
 
 ## Inspiration ⚡️
+**8 out 10 students** in the age group of 10-16 feel the traditional education system to be boring. Consecutive fast-paced **classes only help 30%** of the students to understand. Developing countries which consists of **85% of the world** doesn't focus on physical education while women safety being one of the highest concern. Regular blackboard teaching with the test on pen and paper and dimensionalization of 3D objects to 2D for easy teaching deprives students of depth analysis. Thus making regular teaching boring, hectic, teacher dependant and less effective. `We present Airclass`. Air Class, your virtual instructor, and companion are here to provide assistance in academics as well as martial arts for you, with the luxury of staying indoors. It uses the technology of Augmented Reality.
+Augmented reality is an interactive experience of a real-world environment where the objects that exist in the real world are enhanced by computer-generated perceptual information.
 
 ## What is it? ⛹️‍♂️
 Air Class is an AR based application in which instructors assist you in fitness, self-defense and major subjects of science. With AR and 3d as the next bloom in education our software focuses on the same . With our software any person can learn topics starting from working of heart to martials arts with the power of AR and the comfort of home. A famous proverb goes `All work and no play makes Jack a dull boy`. We take this very seriously by intergrating a recreational game which can be only unlocked after completing a minimum amount of course or by finish a quiz. With our software we make sure `learning is fun`. 
+
+#### Workflow 
+
+- A person who wants to get information on a specific topic can click on it and the instructor will provide explanations with pictorial representation.
+ For example, if a person wants to learn about the human heart, he or she can select the topic. The teacher will proceed to explain about it in detail with a 3D model of the human heart.
+
+- To maintain a healthy combination of learning and breaks, a person can use our quiz and gaming options available, where a person can test their knowledge in a fast track interactive quiz and if they score well, a gaming option becomes available. Thereby helping a person gain constant motivation to do better.
 
 
 [![Starware](https://img.shields.io/badge/⭐-Starware-f5a91a?labelColor=black)](https://github.com/zepfietje/starware)
@@ -16,6 +25,34 @@ Airclass is Starware.
 This means you're free to use the project, as long as you star its GitHub repository.  
 Your appreciation makes us grow and glow up. ⭐
 
+## Features ✨
+
+<ul>
+<li>User interactive</li>
+<li>Cloud-hosted platform</li>
+<li>Better Time Management</li>
+<li>Minimal requirements needed</li>
+<li>Flexibile scheduling</li> 
+<li>Self-Paced Learning</li>
+<li>Interactive learning experience</li>
+<li>Uses technology of Augmented Reality</li>
+<li>Can be used by all age groups</li>
+<li>Inculcating healthy knowledgeable quizing and gaming</li>
+</ul>
+
+## Platforms 💻
+
+<p>Air Class can been used on a variety of platforms:
+<ul>
+<li>Linux</li>
+<li>Mac OS X</li>
+<li>Windows</li>
+<li>Android</li>
+<li>tvOS</li>
+<li>iOS</li>
+<li>WebGL</li>
+</ul>
+</p>
 
 
 ## How we built it 😉
