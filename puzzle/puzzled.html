@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Puzzled - Play</title>
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="javascript.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito|PT+Sans"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="game-page">
+    <!--   <div class="modal"></div> -->
+
+    <div class="nav-bar">
+      <div class="logo">Aliferous Puzzle</div>
+      <div class="user-information"></div>
+      <div class="timer">
+        <span id="minutes">00</span>:<span id="seconds">00</span>
+      </div>
+    </div>
+
+    <div class="container"></div>
+
+    <div class="button-container">
+      <div class="difficulty">
+        <button class="loadEasy load">Easy</button>
+        <button class="loadMedium load">Medium</button>
+        <button class="loadHard load">Hard</button>
+        <button class="loadExpert load">Expert</button>
+      </div>
+
+      <div class="puzzleStart">
+        <button class="generatePuzzle puzzleStartButton">Start Puzzle</button>
+        <button class="newPuzzle puzzleStartButton">New Puzzle</button>
+      </div>
+    </div>
+  </body>
+</html>

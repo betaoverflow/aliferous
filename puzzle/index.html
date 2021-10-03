@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Puzzle</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito|PT+Sans"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="landing">
+    <div class="nav-bar">
+      <div class="logo">Puzzle</div>
+    </div>
+
+    <div class="masthead-container">
+      <div class="text-container">
+        <p class="grey">Create a username to get started</p>
+
+        <form id="user-info" action="puzzled.html" method="get">
+          <div class="form-container">
+            <div class="form-column1">
+              <label for="username">Username:</label>
+              <label for="first-name">First Name: </label>
+              <label for="last-name">Last Name: </label>
+              <label class="fav-color" for="favorite-color"
+                >Favorite Color:</label
+              >
+            </div>
+
+            <div class="form-column2">
+              <input
+                class="text-box"
+                type="text"
+                id="username"
+                name="username"
+              />
+              <input
+                class="text-box"
+                type="text"
+                id="first-name"
+                name="first-name"
+              />
+              <input
+                class="text-box"
+                type="text"
+                id="last-name"
+                name="last-name"
+              />
+              <input
+                class="text-box"
+                type="text"
+                id="favorite-color"
+                name="favorite-color"
+              />
+            </div>
+          </div>
+
+          <div class="submit-button">
+            <input class="submit" type="submit" value="Play now!" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
