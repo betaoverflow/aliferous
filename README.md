@@ -6,7 +6,7 @@
 ## Inspiration ⚡️
 
 ## What is it? ⛹️‍♂️
-Air Class is an AR based application in which instructors assist you in fitness, self-defense and major subjects of science. With AR and 3d as the next bloom in education our software focuses on the same . With our software any person can learn topics starting from working of heart to martials arts with the power of AR and the comfort of home.
+Air Class is an AR based application in which instructors assist you in fitness, self-defense and major subjects of science. With AR and 3d as the next bloom in education our software focuses on the same . With our software any person can learn topics starting from working of heart to martials arts with the power of AR and the comfort of home. A famous proverb goes `All work and no play makes Jack a dull boy`. We take this very seriously by intergrating a recreational game which can be only unlocked after completing a minimum amount of course or by finish a quiz. With our software we make sure `learning is fun`. 
 
 
 [![Starware](https://img.shields.io/badge/⭐-Starware-f5a91a?labelColor=black)](https://github.com/zepfietje/starware)
@@ -37,7 +37,14 @@ Characters imported from blender and unity store made the applications heavy and
 - [ ] AR Foundation 
 - [ ] Vuforia
 - [ ] Javascript
+- [ ] C#
+- [ ] Shaderlab
+- [ ] HLSL
 - [ ] HTML
 - [ ] CSS
 
-## What's next for Donna 🔥
+## What's next for Airclass 🔥
+- The application can be used for teaching correct precautions to people so that they stay safe from viral diseases like the Coronavirus. This way, it serves the demand for healthcare and awareness.
+- It can be used for guiding women in different fields like tailoring, cooking, driving, and academics. It can also be used to teach the proper steps of self-defense to women so that they can protect themselves during an assault. All these advancements will lead to women's empowerment.
+- Tie-ups with major E-Learning Platforms can be done to provide interactive educational content of all types, starting from exams, professional to life skills.
+- Tie-ups with corporate to inculcate AR-based meetings for more immersive graphical-based presentations.
