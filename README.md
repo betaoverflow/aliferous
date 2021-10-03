@@ -54,6 +54,15 @@ Your appreciation makes us grow and glow up. ⭐
 </ul>
 </p>
 
+## How to Run the Project 💨
+<p>
+<ul>
+<li>Install <a href="https://github.com/betaoverflow/aliferous/blob/main/app.apk">the apk</a>.</li>
+<li>Open the apk and click start button.</li>
+<li>A camera will open.</li>
+<li>Open the app and you get to see the options for learning, quizing and gaming.</li>
+</ul>
+</p>
 
 ## How we built it 😉
 We build the Virtual classroom using AR Foundation and AR core in unity. We took characters from the unity store and made some from blender, used scenes for different subjects, and used a backlink using c# functional component to link between scenes. The animator controller was used to animate the object and play the audios at the right time. The quiz app and puzzle were built using vanilla javascript, HTML, and CSS we used the hyperlink from the app itself to the corresponding websites. 
