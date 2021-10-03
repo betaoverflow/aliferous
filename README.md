@@ -25,9 +25,17 @@ Characters imported from blender and unity store made the applications heavy and
 
 
 ## Accomplishments that we're proud of 😎
+Being a duo of javascript developers this was the first time we tried building Augmented Reality in unity. We are proud that we have solved an actual problem:
+- Airclass will help students to learn and understand complex working and diagrams with the power of AR
+- Airclass will help parents and students create a healthy combination of learning and gaming
+- Eliminates the need for physical classroom
+- Encourage people to take care of their health and fitness.
+- Guide women in self-defense.
 
+Even though my fellow teammate fell sick and wasn't able to contribute, I didn't lose hope and stayed up all night. It was tiring, but fun as well. I am most proud of the fact that this product will be able to help many students across the globe.
 
 ## What we learned 🤓
+
 
 
 ## Built With 💕 
