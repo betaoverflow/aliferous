@@ -36,7 +36,7 @@ Being a duo of javascript developers this was the first time we tried building A
 Even though my fellow teammate fell sick and wasn't able to contribute, I didn't lose hope and stayed up all night. It was tiring, but fun as well. I am most proud of the fact that this product will be able to help many students across the globe.
 
 ## What we learned 🤓
-
+Being a group of javascript developers, we tried our hands on Unity this time. We learned how to create and handle multiple scenes , perform hyperlinking , onclick run and movements of the AR model , adding animations to blender character. We also tried to add voice for each scene although not able to integrate python with c# but were able to build a text to speech voice translator. The quiz app and puzzel which we built gave us the confidence on building more native javascript web apps. 
 
 
 ## Built With 💕 
